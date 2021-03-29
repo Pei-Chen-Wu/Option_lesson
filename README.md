@@ -54,6 +54,18 @@
 * BaoStock
 ![image](https://user-images.githubusercontent.com/69243911/112824790-8c2e5f00-90bd-11eb-8d62-949314c7c27b.png)
 
+## HW4_期權
+> from:python期權演算法交易實務180個關鍵技巧詳解
+* 選擇權商品規格
+* Put call parity (選擇權平價理論)
+> Put_call_parity.py
+
+![image](https://user-images.githubusercontent.com/69243911/112825067-e4fdf780-90bd-11eb-943b-35944b37b6ba.png)
+
+* 認識組合單
+* 程式交易
+* 期權常見交易資料
+* K線技術指標套件安裝_Talib
 
 
 
