@@ -1,7 +1,7 @@
 # Option_lesson
 股票課程所學
 ## HW1_基金
-> from 給工程師的第一本理財書 :程式金融交易的118個入門關鍵
+> from:給工程師的第一本理財書 :程式金融交易的118個入門關鍵
 > Fund analysis.ipynb
 * 抓取基金報酬率
 
@@ -29,7 +29,41 @@
 
 ![image](https://user-images.githubusercontent.com/69243911/112822804-fbef1a80-90ba-11eb-8e8f-68ad75b6234c.png)
 
+## HW2_期權
+> from:給工程師的第一本理財書 :程式金融交易的118個入門關鍵
+* 簡介
+* 如何進行選擇權買賣
+* 買權與賣權
+* 交易成本_權利金與保證金
+* 概念實體化
+* 四個象限(基本含義)
+* 其他交易成本
+* 選擇權與標的知恆等公式
+
+## HW3_常用資料取得
+> from:Python量化投資縱橫金融：從程式到現金之路
+> 中國股票
+* 優礦官網
+
+![image](https://user-images.githubusercontent.com/69243911/112824606-538e8580-90bd-11eb-8acd-74ed3ee6c86f.png)
+
+* yahoo
+![image](https://user-images.githubusercontent.com/69243911/112824720-7751cb80-90bd-11eb-9515-21ca63f87a53.png)
+* TuShare
+![image](https://user-images.githubusercontent.com/69243911/112824764-8173ca00-90bd-11eb-89a4-a315c2ee560f.png)
+* BaoStock
+![image](https://user-images.githubusercontent.com/69243911/112824790-8c2e5f00-90bd-11eb-8d62-949314c7c27b.png)
 
 
+
+
+
+
+
+
+
+
+
+   
  
  
