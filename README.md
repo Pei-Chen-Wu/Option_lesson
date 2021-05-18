@@ -67,6 +67,23 @@
 * 期權常見交易資料
 * K線技術指標套件安裝_Talib
 
+## HW5_公開資訊觀測站
+> 介紹公開資訊觀測站 https://mops.twse.com.tw/mops/web/index
+* 首頁配置
+* 全站搜尋列
+* 股東會除權息日曆
+* 相關連結
+   * 基本市況 https://mis.twse.com.tw/
+   * 申請上市資訊 https://www.twse.com.tw/zh/company/applylisting
+   * 國內外相關網站 https://www.twse.com.tw/zh/page/about/links.html
+* RSS
+* 公告區
+* 財務比較e點通 https://mopsfin.twse.com.tw/index
+* 月營收資訊查詢 https://mops.twse.com.tw/mops/web/t05st10_ifrs
+* XBRL平台 https://mops.twse.com.tw/mops/web/t203sb01
+* 網站地圖 https://mops.twse.com.tw/mops/web/t146sb08
+
+
 
 
 
