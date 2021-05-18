@@ -83,16 +83,83 @@
 * XBRL平台 https://mops.twse.com.tw/mops/web/t203sb01
 * 網站地圖 https://mops.twse.com.tw/mops/web/t146sb08
 
+## HW6_證交所網站
+> 介紹證交所網站 https://www.twse.com.tw/zh/
+* 與公開資訊觀測站比較
+* 熱門導覽 https://www.twse.com.tw/zh/page/focus/popular.html
+   * 每日收盤行情
+* 快捷選項
+   * 臺灣創新板(TIB) https://www.twse.com.tw/zh/page/products/tib/preface.html
+   * 其他選項 https://www.twse.com.tw/zh/page/focus/links.html
+*  熱門查詢
+*  熱門資訊統計與排行
+*  細項資訊
+   * 交易資訊
+   * 指數資訊
+
+## HW7_goodinfo
+> 介紹goodinfo網站 https://goodinfo.tw/StockInfo/index.asp
+* 個股收尋列
+* 細項選擇
+   * 主要資訊
+   * 熱門排行
+   * 智慧選股
+* 熱門資訊統計與排行
+* 最近瀏覽
+
+> 介紹嗨!投資 (Hi Stock)網站 https://histock.tw/app/search.aspx
+
+## HW8_stocker程式
+> Facebook 於 2017年發表的論文 Forecasting at Scale
+> 新型的時間序列預測模型Prophet，中文叫作預言家
+> 可以預測一些週期性的時間序列
+### 程式介紹
+> from : https://github.com/grandma-tutorial/Stocker
+* grandma_stocker.ipynb  : 從 Yahoo Finance 取得歷史股價
+* grandma_stocker_local.ipynb : 讀取 Local 資料
+> 步驟
+* 安裝相關套件
+![image](https://user-images.githubusercontent.com/69243911/118701618-83007980-b846-11eb-83e3-12cb8fa1dd06.png)
+* 下載資料 （使用 yfinance）
+![image](https://user-images.githubusercontent.com/69243911/118701668-8eec3b80-b846-11eb-9189-2d692cb689e6.png)
+
+* 使用 Stocker 預測股價
+![image](https://user-images.githubusercontent.com/69243911/118701689-957ab300-b846-11eb-9744-db1058dd88dd.png)
+
+* 預測未來10天的股價
+![image](https://user-images.githubusercontent.com/69243911/118701730-a3303880-b846-11eb-8e63-f01ffe5d0c78.png)
+
+* 模型好壞
+![image](https://user-images.githubusercontent.com/69243911/118701756-aaefdd00-b846-11eb-8c40-2d0c95baa97d.png)
+
+* 調整參數讓模型預測有不同的表現
+![image](https://user-images.githubusercontent.com/69243911/118701783-b3481800-b846-11eb-896f-39d3515496a4.png)
+
+* 比較不同的changepoint_priors
+![image](https://user-images.githubusercontent.com/69243911/118701805-b93df900-b846-11eb-9934-46c1297b846e.png)
+
+## HW9_textblob
+> 用於處理文本數據
+> 提供了一個簡單的API，可用於深入研究普通自然語言處理（NLP）任務，例如詞性標記、名詞短語提取、情感分析、分類、翻譯等
+* 安裝
+![image](https://user-images.githubusercontent.com/69243911/118701932-e094c600-b846-11eb-9ee0-2605326a6650.png)
+
+* Sentiment Analysis_ PatternAnalyzer(默認)
+   * Sentiment(polarity, subjectivity)
+      * The polarity情感極性 score is a float within the range [-1.0, 1.0] 
+      * The subjectivity主觀性 is a float within the range [0.0, 1.0] where 0.0 is very objective and 1.0 is very subjective
+![image](https://user-images.githubusercontent.com/69243911/118702009-f609f000-b846-11eb-9ad9-84de193b8711.png)
+
+* Sentiment Analysis_NaiveBayesAnalyzer
+   * an NLTK classifier trained on a movie reviews corpus
+   * Sentiment(classification, p_pos, p_neg)
+      * Classification 情感分類
+      * p_pos 正向分數
+      * p_neg 負面分數
+![image](https://user-images.githubusercontent.com/69243911/118702111-15a11880-b847-11eb-9775-52154ff7dfd4.png)
+
+> 應用在Bulbea程式_情感方面
+![image](https://user-images.githubusercontent.com/69243911/118702172-2b164280-b847-11eb-94f1-33a69c18fe99.png)
 
 
-
-
-
-
-
-
-
-
-   
- 
  
