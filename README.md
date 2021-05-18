@@ -139,6 +139,7 @@
 ![image](https://user-images.githubusercontent.com/69243911/118701805-b93df900-b846-11eb-9934-46c1297b846e.png)
 
 ## HW9_textblob
+> from : https://textblob.readthedocs.io/en/dev/
 > 用於處理文本數據
 > 提供了一個簡單的API，可用於深入研究普通自然語言處理（NLP）任務，例如詞性標記、名詞短語提取、情感分析、分類、翻譯等
 * 安裝
@@ -161,5 +162,61 @@
 > 應用在Bulbea程式_情感方面
 ![image](https://user-images.githubusercontent.com/69243911/118702172-2b164280-b847-11eb-94f1-33a69c18fe99.png)
 
+## HW10_Stock-Prediction-Models(1)
+>from https://github.com/huseinzol05/Stock-Prediction-Models
+> 包含許多機器學習、深度學習模型與交易策略
+> 可做到交易機器人和模擬
+### Models
+* Deep-learning models
+* Bonus
+* Stacking models
+### Agents (策略)
+### Data Explorations
+* stock market study on TESLA stock, tesla-study.ipynb
+* Outliers study using K-means, SVM, and Gaussian on TESLA stock, outliers.ipynb
+* Overbought-Oversold study on TESLA stock, overbought-oversold.ipynb
+* Which stock you need to buy? which-stock.ipynb
+![image](https://user-images.githubusercontent.com/69243911/118703374-990f3980-b848-11eb-967d-76c6072c56ff.png)
 
- 
+### Simulations (模擬)
+* Simple Monte Carlo, monte-carlo-drift.ipynb
+* Dynamic volatility Monte Carlo, monte-carlo-dynamic-volatility.ipynb
+* Drift Monte Carlo, monte-carlo-drift.ipynb
+* Multivariate Drift Monte Carlo BTC/USDT with Bitcurate sentiment, multivariate-drift-monte-carlo.ipynb
+* Portfolio optimization, portfolio-optimization.ipynb, inspired from https://pythonforfinance.net/2017/01/21/investment-portfolio-optimisation-with-python/
+![image](https://user-images.githubusercontent.com/69243911/118703391-9d3b5700-b848-11eb-88d6-f9ee2f8d544d.png)
+
+### Tensorflow-js
+LSTM Recurrent Neural Network and Simple signal rolling agent inside Tensorflow JS
+### Misc
+* fashion trending prediction with cross-validation, fashion-forecasting.ipynb
+* Bitcoin analysis with LSTM prediction, bitcoin-analysis-lstm.ipynb
+* Kijang Emas Bank Negara, kijang-emas-bank-negara.ipynb
+
+### 程式介紹
+> 環境要求 : conda install tensorflow=1.12.0 (python 3.6以下)
+> DL model
+* 匯入資料
+![image](https://user-images.githubusercontent.com/69243911/118703669-f2776880-b848-11eb-9a89-425c3c6b8afa.png)
+
+* cut the dataset to train and test datasets
+![image](https://user-images.githubusercontent.com/69243911/118703753-09b65600-b849-11eb-92cd-086e40e5bf7c.png)
+
+* class Model
+![image](https://user-images.githubusercontent.com/69243911/118703793-120e9100-b849-11eb-9d77-5514f21e7175.png)
+![image](https://user-images.githubusercontent.com/69243911/118703808-1470eb00-b849-11eb-92b8-b9f6bc7c6a1f.png)
+
+* 輸入參數
+![image](https://user-images.githubusercontent.com/69243911/118703843-1c308f80-b849-11eb-9d0b-0d4b663611d0.png)
+
+* def forecast
+* 執行
+![image](https://user-images.githubusercontent.com/69243911/118703907-29e61500-b849-11eb-887a-5f24a42cf358.png)
+
+* 輸出結果
+![image](https://user-images.githubusercontent.com/69243911/118703943-336f7d00-b849-11eb-934a-482c2c6e6e48.png)
+
+
+
+
+
